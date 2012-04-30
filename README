@@ -1,0 +1,12 @@
+This program takes in parsed Dota 2 Replay Files, then displays and outputsinformation relating to Roshan and the Aegis of the Immortal. It will print
+to the console data on all instances of Roshan Killed, and output a Comma Separated Values File with info on instances of Roshan Killed that game.
+
+The units for the CSV file are:
+Team Number: 1 - Radiant, 2 - Dire
+Roshan Kill Tick: The tick which Roshan died at. 30 ticks happen per second.
+Hero who picked up Aegis: Shows which hero unit picked up the Aegis. Will show denied if no one picks it up.
+Hero Team: The team the person belonged too, if diffrent from team number, indicates Aegis was "stolen", or a fight was happening in Roshan's Pit
+Aegis Grab Tick: The tick which the Aegis was picked up. Will show 0 if denied. 
+
+
+- Chet Michals, 04/30/12
